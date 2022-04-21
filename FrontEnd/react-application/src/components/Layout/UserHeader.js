@@ -8,7 +8,7 @@ import { Link} from 'react-router-dom';
             <nav className="navbar navbar-expand-sm navbar-dark bg-primary mb-4">
             <div className="container">
                 <a className="navbar-brand" href="/dashboard">
-                    Bockeroo
+                    E-Commerce
                 </a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-nav">
                     <span className="navbar-toggler-icon" />
@@ -35,14 +35,20 @@ import { Link} from 'react-router-dom';
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link" href="#about">
+                            <a className="nav-link" href="/about">
                                 About
                             </a>
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link" href="#terms-and-conditions">
+                            <a className="nav-link" href="/terms-and-conditions">
                                 Terms and Conditions
+                            </a>
+                        </li>
+
+                        <li className="nav-item">
+                            <a className="nav-link" href="/contact">
+                                Contact
                             </a>
                         </li>
                     </ul>

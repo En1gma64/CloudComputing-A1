@@ -10,6 +10,9 @@ import store from "./store";
 import Landing from "./components/Layout/Landing";
 import Register from "./components/UserManagement/Register";
 import Login from "./components/UserManagement/Login";
+import TermsAndConditions from "./components/Layout/TermsAndConditions";
+import About from "./components/Layout/About";
+import Contact from "./components/Layout/Contact";
 import jwt_decode from "jwt-decode";
 import setJWTToken from "./securityUtils/setJWTToken";
 import { SET_CURRENT_USER } from "./actions/types";
@@ -56,6 +59,9 @@ class App extends Component {
             <Route exact path="/register" component={Register} />
             <Route exact path="/login" component={Login} />
             <Route exact path="/welcome" component={Welcome} />
+            <Route exact path="/terms-and-conditions" component={TermsAndConditions}/>
+            <Route exact path="/about" component={About}/>
+            <Route exact path="/contact" component={Contact}/>
             {
               //Private Routes
             }

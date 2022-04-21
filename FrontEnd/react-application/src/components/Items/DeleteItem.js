@@ -17,7 +17,7 @@ class DeleteItem extends Component {
     };
 
     getItems() {
-        axios.get("http://localhost:8081/api/items/findItems")
+        axios.get(`http://cloudcomputinga1itemmicroservice-env.eba-btrpvvm3.us-east-1.elasticbeanstalk.com/api/items/findItems`)
             .then(response => response.data)
             .then((data) => {
                 this.setState({items:data})
@@ -25,7 +25,7 @@ class DeleteItem extends Component {
     };
 
     delete = (itemId) => {
-        axios.delete("http://localhost:8081/api/items/deleteByID/"+itemId)
+        axios.delete(`http://cloudcomputinga1itemmicroservice-env.eba-btrpvvm3.us-east-1.elasticbeanstalk.com/api/items/deleteByID/`+itemId)
             .then(response => {
                 if (response.data != null) {
                     alert("Item Removed")

@@ -20,7 +20,7 @@ class OrderList extends Component {
         const jwt = localStorage.getItem("jwtToken");
         const user = jwtDecode(jwt);
         const username = user.username;
-        axios.get("http://localhost:8082/api/orders/findOrderByUsername/"+username)
+        axios.get(`http://cloudcomputinga1ordermicroservice-env.eba-dkisjigt.us-east-1.elasticbeanstalk.com/api/orders/findOrderByUsername/`+username)
             .then(response => response.data)
             .then((data) => {
                 this.setState({orders:data})
@@ -28,7 +28,7 @@ class OrderList extends Component {
     }
 
     delete = (orderId) => {
-        axios.delete("http://localhost:8082/api/orders/deleteById/"+orderId)
+        axios.delete(`http://cloudcomputinga1ordermicroservice-env.eba-dkisjigt.us-east-1.elasticbeanstalk.com/api/orders/deleteById/`+orderId)
             .then(response => {
                 if (response.data != null) {
                     alert("Order Removed")

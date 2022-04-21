@@ -8,7 +8,7 @@ export const createNewUser = (newUser, history) => async dispatch => {
 
     try{
 
-        await axios.post("http://localhost:8080/api/users/register", newUser);
+        await axios.post(`http://cloudcomputinga1loginmicroservice-env.eba-p8kd6tvw.us-east-1.elasticbeanstalk.com/api/users/register`, newUser);
         //Variables that get captured
         const { username } = newUser; //username
         const { fullName } = newUser; //fullName
@@ -35,7 +35,7 @@ export const createNewUser = (newUser, history) => async dispatch => {
 export const login = LoginRequest => async dispatch => {
     try {
       // post => Login Request
-      const res = await axios.post("http://localhost:8080/api/users/login", LoginRequest);
+      const res = await axios.post(`http://cloudcomputinga1loginmicroservice-env.eba-p8kd6tvw.us-east-1.elasticbeanstalk.com/api/users/login`, LoginRequest);
       // extract token from res.data
       const { token } = res.data;
       //extract data

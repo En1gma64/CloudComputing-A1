@@ -30,7 +30,7 @@ class OrderForm extends Component {
             numDays: this.state.numDays,
             status: "Pending"}
         console.log(order)
-        fetch("http://localhost:8082/api/orders/addOrder", {
+        fetch(`http://cloudcomputinga1ordermicroservice-env.eba-dkisjigt.us-east-1.elasticbeanstalk.com/api/orders/addOrder`, {
             method:"POST",
             headers:{"Content-Type":"application/json"},
             body:JSON.stringify(order)

@@ -1,4 +1,8 @@
 # CloudComputing-A1
+
+## Web-App URL
+http://www.e-commerce-react.io.s3-website-us-east-1.amazonaws.com
+
 ## Admin Login
 username: d.n.karawita@gmail.com </br>
 password: adminpassword

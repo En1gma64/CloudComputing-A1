@@ -27,7 +27,7 @@ import { GET_ERRORS, GET_PERSONS, GET_PERSON } from "./types";
 //Get the User Information 
 export const getPerson = (id, history) => async dispatch => {
   try {
-    const res = await axios.get(`http://localhost:8080/api/users/getUsers/${id}`);
+    const res = await axios.get(`http://cloudcomputinga1loginmicroservice-env.eba-p8kd6tvw.us-east-1.elasticbeanstalk.com/api/users/getUsers/${id}`);
 
     //Getting the user information  
     const { role } = res.data;
@@ -46,7 +46,7 @@ export const getPerson = (id, history) => async dispatch => {
 export const createNewItem = (newItem, history) => async dispatch => {
   try {
     
-    await axios.post("http://localhost:8081/api/items/addItem", newItem);
+    await axios.post(`http://cloudcomputinga1itemmicroservice-env.eba-btrpvvm3.us-east-1.elasticbeanstalk.com/api/items/addItem`, newItem);
 
     history.push("/dashboard");
   } catch (err) {
