@@ -13,10 +13,10 @@ class Landing extends Component {
             <div className="row">
               <div className="col-md-12 text-center">
                 <h1 className="display-3 mb-4">
-                  E-Commerce
+                  Retail Therapy
                 </h1>
                 <p className="lead">
-                  Rent Clothes and Do Stuff!
+                  Nothing to wear? Leave it to us!
                 </p>
                 <hr />
                 <Link className="btn btn-lg btn-primary mr-2" to="/register">

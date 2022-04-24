@@ -16,13 +16,13 @@ class Contact extends Component {
                         <div className="row">
                         <div className="col-md-12 text-center">
                             <h1 className="display-3 mb-4">
-                            E-Commerce
+                            Retail Therapy
                             </h1>
                             <p className="lead">
                             Contact us?
                             </p>
                             {/*  */}
-                            <p>Email: E-Commerce@site.com.au</p>
+                            <p>Email: rtherapy@site.com.au</p>
                             <p>Please include your order number and full name</p>
                             {/*  */}
                             <hr />
@@ -69,13 +69,13 @@ class Contact extends Component {
                         <div className="row">
                         <div className="col-md-12 text-center">
                             <h1 className="display-3 mb-4">
-                            E-Commerce
+                            Retail Therapy
                             </h1>
                             <p className="lead">
                             Contact us?
                             </p>
                             {/*  */}
-                            <p>Email: E-Commerce@site.com.au</p>
+                            <p>Email: rtherapy@site.com.au</p>
                             <p>Please include your order number and full name</p>
                             {/*  */}
                             <hr />

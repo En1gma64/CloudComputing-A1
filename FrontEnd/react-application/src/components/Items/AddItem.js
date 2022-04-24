@@ -21,9 +21,9 @@ export default function AddItem() {
 
     const S3_BUCKET ='cloudcomputing-a1-images';
     const REGION ='us-east-1';
-    const ACCESS_KEY ='ASIAYB2TE3WWXK52KE5E';
-    const SECRET_ACCESS_KEY ='udrtxoXMkMmYoWyOK6oOmNOF/4tasjqsL6hUUV+G';
-    const SESSION_TOKEN = 'FwoGZXIvYXdzEK///////////wEaDAd91AbQ1JJDfBUfcyLNAYwxs6mBAScefmJQwI7XPW3Kj7ogFCjzXLSMYz/TmRVr/x9Tttxwbsi2IN3JKTYS3AaiV8xDp81qz4LoNyZivyMYZgn0nwdailSjZlQiG8nxDxwBF9G9fVnyJ644DtsUwD/cI71I6Q4PBLzeF0KEWKVNJKQnpr1UqkWkzYzZ3fxhl3lgyyEzuPZSU8W27YflK+947N+V6wg3Nn2hQUSeI9X76NaOVtizg8YRp9h237gYQI9e0HMAq+hc5thbxTylsp+IG6InVyXHfDA2DDcomqSOkwYyLWE1g27HnM917wiDfaFQkKoCMGsWVnDXYY6Ta2YKdR/wv8nw4kRG0eSIEeBkqQ==';
+    const ACCESS_KEY ='ASIAYB2TE3WWYWG5M4JI';
+    const SECRET_ACCESS_KEY ='8GyM9SGsMnCyGkhoNj6jUPF3G2QE4vdez3oFJsuI';
+    const SESSION_TOKEN = 'FwoGZXIvYXdzEMf//////////wEaDN2oYJJ9LEQcWYE+ayLNAQJfoscLv7Pp4VC807sToelFwNOHBvGO+BPa4d//AksBdApHsPGRRpD3V/X28AerfLm4WfGLHFxDhI0wk0U63IBzCCk6fcepYXsxOIFN/y8Jps7UNQ1zZ5yS1N/Ayht0EdnsVYKRYukXI2Pyfmr5LER8zc6HzstnSDIa9/cmkRyJIRG709lBXUR/iAiWVobeJQEd/zKktyLTleuqwfhzC38PSMXCsjqM6J6r5phm2SNxNGquyqcy8mO1Pjq+TOiMKAiVVTaS+Yv+5z0fwboomcyTkwYyLVldVaPW7FjYnEWzW+VPfh5Ls/Plr+P57zkqpzuNhM+/0avCii+vzi2vCDt0MQ==';
 
     AWS.config.update({
         accessKeyId: ACCESS_KEY,

@@ -16,7 +16,7 @@ class About extends Component {
                         <div className="row">
                         <div className="col-md-12 text-center">
                             <h1 className="display-3 mb-4">
-                            E-Commerce
+                            Retail Therapy
                             </h1>
                             <p className="lead">
                             About us!
@@ -71,7 +71,7 @@ class About extends Component {
                     <div className="row">
                     <div className="col-md-12 text-center">
                         <h1 className="display-3 mb-4">
-                        E-Commerce
+                        Retail Therapy
                         </h1>
                         <p className="lead">
                         About us!

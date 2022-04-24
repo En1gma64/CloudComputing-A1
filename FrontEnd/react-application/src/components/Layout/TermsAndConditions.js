@@ -16,7 +16,7 @@ class TermsAndConditions extends Component {
                         <div className="row">
                         <div className="col-md-12 text-center">
                             <h1 className="display-3 mb-4">
-                            E-Commerce
+                            Retail Therapy
                             </h1>
                             <p className="lead">
                             Please read our rules before joining us!
@@ -24,7 +24,7 @@ class TermsAndConditions extends Component {
                             {/*  */}
                             <p>#1 Be Nice!</p>
                             <p>#2 Follow the rule above!</p>
-                            <p>#4 Violation of above rules will result in a permanent ban!</p>
+                            <p>#3 Violation of above rules will result in a permanent ban!</p>
                             {/*  */}
                             <hr />
                             
@@ -72,7 +72,7 @@ class TermsAndConditions extends Component {
                     <div className="row">
                     <div className="col-md-12 text-center">
                         <h1 className="display-3 mb-4">
-                        E-Commerce
+                        Retail Therapy
                         </h1>
                         <p className="lead">
                         Please read our rules before joining us!
@@ -80,7 +80,7 @@ class TermsAndConditions extends Component {
                         {/*  */}
                         <p>#1 Be Nice!</p>
                         <p>#2 Follow the rule above!</p>
-                        <p>#4 Violation of above rules will result in a permanent ban!</p>
+                        <p>#3 Violation of above rules will result in a permanent ban!</p>
                         {/*  */}
                         <hr />
                         
